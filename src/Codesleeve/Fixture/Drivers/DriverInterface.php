@@ -16,5 +16,5 @@ interface DriverInterface {
 	 *
 	 * @return void
 	 */
-	public function truncate();
+	public function truncate($tableName);
 }
